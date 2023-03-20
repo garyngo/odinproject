@@ -1,0 +1,16 @@
+.button {
+    font-size: 28px;
+    font-style: Helvetica, "Times New Roman", "sans-serif";
+    border-style: solid;
+    border-color: #a7a6a6;
+}
+
+.button#clickme {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.button#noclickme {
+    background-color: #ffff00;
+
+}
