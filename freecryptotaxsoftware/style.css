@@ -1,0 +1,8 @@
+body {
+    --color-primary: #009579;
+    --color-primary-dark: #009578;
+    --color-secondary: #252c6a;
+    --color-error: #cc3333;
+    --color-success: #4bb544;
+    --border-radius: 4px;
+}
