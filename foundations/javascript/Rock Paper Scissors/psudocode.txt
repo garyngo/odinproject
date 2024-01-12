@@ -1,0 +1,12 @@
+
+
+function playround
+
+user select rock, paper, scissors
+computer select
+
+logic for how to win, lose, and ties
+
+return string "You Lose! Paper Beats Rock"
+
+or "You Win! Paper Beats Rock"
