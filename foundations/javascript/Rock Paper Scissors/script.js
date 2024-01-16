@@ -2,9 +2,9 @@ function getComputerChoice(arr) {
 
     let RandomIndex = Math.floor(Math.random() * arr.length);
 
-    let item = arr[RandomIndex];
+    let choice = arr[RandomIndex];
 
-    return item;
+    return choice;
 
 }
 
@@ -15,3 +15,6 @@ let result = getComputerChoice(array);
 console.log(result);
 
 
+function playround(pr) {
+    let userChoice = prompt("Rock, Paper, Scissors?");
+}
