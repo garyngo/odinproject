@@ -14,14 +14,15 @@ let result = getComputerChoice(array);
 
 function playRound(playerSelection, computerSelection) {
 
-       switch(computerSelection) {
-        case "Scissors":
+        if (computerSelection === "Scissors")
             return 'Rock vs Scissors: You Win'
-        case "Paper":
+
+        if (computerSelection === "Paper")
             return 'Rock vs Paper: You Lose'
-        case "Rock":
-            return 'Tie - Replay round'
-       }
+
+        if (computerSelection === "Rock")
+            return 'Rock vs Rock: Tie'
+      
 
     }
     
