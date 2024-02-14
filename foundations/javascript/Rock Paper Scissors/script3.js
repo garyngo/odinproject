@@ -21,18 +21,16 @@ function playRound(playerSelection, computerSelection) {
             return 'Rock vs Paper: You Lose'
 
         if (computerSelection === "Rock")
-            return 'Rock vs Rock: Tie'
-      
-
+            return 'Rock vs Rock: Tie - replay round'
     }
-    
-function game() {
-    playRound(playerSelection, computerSelection)
-    console.log(playRound(playerSelection, computerSelection));
+
+function replayRound(playRound) {
+        if playRound = 'Rock vs Rock: Tie - replay round'
 }
-    
+
 
    
   const playerSelection = 'Rock'
   const computerSelection = getComputerChoice(array);
   console.log(playRound(playerSelection, computerSelection));
+ 

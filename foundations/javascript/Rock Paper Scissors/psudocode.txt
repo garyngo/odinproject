@@ -3,7 +3,7 @@
 function playround
 
 user select rock, paper, scissors
-computer select
+computer select(getcomputerchoice)
 
 logic for how to win, lose, and ties
 
